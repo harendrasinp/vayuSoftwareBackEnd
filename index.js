@@ -5,7 +5,7 @@ import cors from "cors";
 const server= express();
 
 server.use(cors({
-  origin: "*", 
+  origin: "https://vayu-software.vercel.app/", 
   credentials: true                
 }));
 server.use(express.json());
